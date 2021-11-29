@@ -3,7 +3,6 @@ terraform {
     aws = {
       source                = "hashicorp/aws"
       version               = "~> 3.66.0"
-      configuration_aliases = [aws.alternate]
     }
   }
 }
